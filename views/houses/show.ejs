@@ -1,0 +1,22 @@
+<% layout('layouts/boilerplate') %>
+    <h1>
+        <%=house.title%>
+    </h1>
+    <h2>
+        <%=house.location%>
+    </h2>
+    <img src="<%= house.image %>" alt="">
+    <p>
+        <%=house.description %>
+    </p>
+    <p>Price: <%=house.price %>$ / night.
+    </p>
+    <p><a href="/houses/<%=house._id%>/edit">Edit House</a></p>
+    <p>
+    <form action="/houses/<%=house._id%>?_method=DELETE" method="POST">
+        <button>DELETE</button>
+    </form>
+    </p>
+    <footer>
+        <a href="/houses">All Houses</a>
+    </footer>

@@ -1,0 +1,30 @@
+{
+  "name": "airbnb-porject",
+  "version": "1.0.0",
+  "description": "Project using express and mongoose to build an Airbnb like site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geripairo/airbnb-project.git"
+  },
+  "author": "Gerard Pairó",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geripairo/airbnb-project/issues"
+  },
+  "homepage": "https://github.com/geripairo/airbnb-project#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.3.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}

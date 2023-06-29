@@ -1,0 +1,13 @@
+<% layout('layouts/boilerplate') %>
+    <form action="/houses" method="POST">
+        <div>
+            <label for="title">Title</label>
+            <input type="text" id="title" name="house[title]">
+        </div>
+        <div>
+            <label for="location">Location</label>
+            <input type="text" id="location" name="house[location]">
+        </div>
+        <button>Add House</button>
+        <a href="/houses">Back to Houses</a>
+    </form>
